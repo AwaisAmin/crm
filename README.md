@@ -1,12 +1,28 @@
-# React + Vite
+# Customer Requests Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Customer Requests Management System**, built using **React + Vite**. It provides a structured form interface to collect and manage factory audit requests, including HIGG FEM, SLCP, C-TPAT Audit, ISO, Environmental, and Sustainability assessments.
 
-Currently, two official plugins are available:
+## **Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Customer Requests Form**: Capture factory details, including name, address, representative, and contact information.
+- **Employee & Production Information**: Record number of employees, shifts, factory area, production capacity, and major processes.
+- **Verification Checklist**: Includes compliance questions related to factory verification and sustainability.
+- **Tabbed Interface**: Manage different types of audits (HIGG FEM, SLCP, C-TPAT, ISO, etc.).
+- **CRUD Operations**: Create, modify, and delete customer requests.
+- **Data Validation**: Ensure required fields are correctly filled before submission.
 
-## Expanding the ESLint configuration
+## **Tech Stack**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js (Vite)
+- **Styling**: Tailwind CSS / Material-UI (if applicable)
+- **State Management**: React Context / Redux (if used)
+- **Routing**: React Router (if applicable)
+
+## **Installation**
+
+1. Clone the repository:
+   ```sh
+   git clone git@github.com:AwaisAmin/crm.git
+   cd crm
+   npm i
+   ```
