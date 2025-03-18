@@ -145,7 +145,7 @@ export default function CustomerRequestsForm() {
           <div className="flex flex-col items-center mr-4">
             <Button
               variant="outline"
-              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center"
+              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center cursor-pointer"
             >
               <span className="mr-2">📄</span> New
             </Button>
@@ -253,25 +253,25 @@ export default function CustomerRequestsForm() {
           <div className="flex items-center gap-5">
             <Button
               variant="outline"
-              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center"
+              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center cursor-pointer"
             >
               <span className="mr-2">💾</span> Save
             </Button>
             <Button
               variant="outline"
-              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center"
+              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center cursor-pointer"
             >
               <span className="mr-2">✏️</span> Modify
             </Button>
             <Button
               variant="outline"
-              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center"
+              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center cursor-pointer"
             >
               <span className="mr-2">✂️</span> Delete
             </Button>
             <Button
               variant="outline"
-              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center"
+              className="bg-white border-gray-400 h-8 px-2 mb-1 flex items-center cursor-pointer"
             >
               <span className="mr-2">🚪</span> Exit
             </Button>
