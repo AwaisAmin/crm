@@ -11,6 +11,7 @@ import {
   ChevronRight,
   ChevronDown,
   X,
+  LayoutDashboard,
 } from "lucide-react";
 
 function Sidebar({ open, setOpen }) {
@@ -31,11 +32,21 @@ function Sidebar({ open, setOpen }) {
 
   const menuItems = [
     {
+      id: "dashboard",
+      label: "Dashboard",
+      icon: LayoutDashboard,
+      path: "/dashboard",
+    },
+    {
       id: "customer-requests",
       label: "Customer Requests",
       icon: ClipboardList,
       submenu: [
-        { id: "new-request", label: "New Request", path: "/dashboard" },
+        {
+          id: "new-request",
+          label: "New Request",
+          path: "/dashboard/new-request",
+        },
         {
           id: "view-requests",
           label: "View Requests",
