@@ -8,6 +8,7 @@ import CustomerRequestsForm from "./pages/CustomerRequestsForm";
 import ViewRequests from "./pages/ViewRequests";
 import DashboardLayout from "./layouts/DashboardLayout";
 import NotImplemented from "./pages/NotImplemented";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
               </ProtectedRoute>
             }
           >
-            <Route index element={<CustomerRequestsForm />} />
+            <Route index element={<Dashboard />} />
+            <Route path="new-request" element={<CustomerRequestsForm />} />
             <Route path="view-requests" element={<ViewRequests />} />
             {/* Add explicit routes for sidebar menu items */}
             <Route path="add-client" element={<NotImplemented />} />
